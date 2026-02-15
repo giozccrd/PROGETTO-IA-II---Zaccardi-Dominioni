@@ -25,3 +25,16 @@ Il codice è organizzato nelle seguenti fasi:
 3. **Preprocessing:** Feature Selection e standardizzazione tramite Z-score.
 4. **Modellazione:** Confronto tra Logistic Regression, k-NN, Random Forest (ottimizzata con GridSearch) e XGBoost.
 5. **Valutazione:** Analisi delle performance tramite residui probabilistici.
+
+### Come eseguire il codice
+Per riprodurre i risultati dell'analisi, segui questi passaggi:
+
+1. **Google Colab (Consigliato):**
+   * Carica il file `.ipynb` su [Google Colab](https://colab.research.google.com/).
+   * Assicurati di installare la libreria UCI tramite il comando: `!pip install ucimlrepo`.
+   * Esegui le celle in ordine cronologico.
+
+2. **Esecuzione Locale:**
+   * Clona la repository: `git clone <link-tua-repo>`.
+   * Installa le dipendenze: `pip install pandas matplotlib seaborn scikit-learn xgboost ucimlrepo`.
+   * Avvia Jupyter Notebook e apri il file del progetto.
